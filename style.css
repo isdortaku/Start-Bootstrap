@@ -141,7 +141,7 @@ body {
 }
 .content .line {
   width: 65px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   display: flex;
   display: inline-block;
@@ -154,7 +154,7 @@ body {
 }
 .content .line1 {
   width: 65px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   display: flex;
   display: inline-block;
@@ -206,7 +206,7 @@ body {
 }
 .about .vovo .self span {
   width: 100px;
-  border: 3px solid white;
+  border: 1px solid white;
   border-radius: 10px;
   height: 3px;
   margin: 0 3px 5px 3px;
@@ -281,7 +281,7 @@ body {
 }
 .dev .control .line {
   width: 100px;
-  border: 3px solid gray;
+  border: 1px solid gray;
   border-radius: 10px;
   color: gray;
 }
@@ -305,8 +305,8 @@ body {
   margin: 2px;
 }
 .final span {
-  background-color: rgb(27, 188, 155);
-  font-size: 15spx;
+  color: rgb(27, 188, 155);
+  font-size: 15px;
 }
 .final p {
   font-family: Montserrat-Regular;
@@ -435,7 +435,7 @@ body {
     display: none;
   }
   .final span {
-    background-color: rgb(27, 188, 155);
+    color: rgb(27, 188, 155);
     font-size: 12px;
   }
   .final p {
@@ -528,6 +528,10 @@ body {
     font-size: 12px;
     margin-bottom: 10px;
   }
+  .final span {
+    color: rgb(27, 188, 155);
+    background-color: none;
+  }
 }
 @media (min-width: 765px) and (max-width: 991.98px) {
   .navigation {
@@ -561,7 +565,7 @@ body {
   }
   .content .line {
     width: 65px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     display: flex;
     display: inline-block;
@@ -574,7 +578,7 @@ body {
   }
   .content .line1 {
     width: 65px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     display: flex;
     display: inline-block;
@@ -705,7 +709,7 @@ body {
   }
   .content .line {
     width: 65px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     display: flex;
     display: inline-block;
@@ -718,7 +722,7 @@ body {
   }
   .content .line1 {
     width: 65px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     display: flex;
     display: inline-block;
