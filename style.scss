@@ -14,12 +14,14 @@ body{
 }
 
 .navigation.scrolled{
-    background-color: #9BCF53;
+    background-color: #836FFF;
     opacity: 0.98;
 }
 
 .navigation.scrolled .nav-bar a{
     color: white;
+    font-size: 18px;
+   
 }
 .navigation{
     position: sticky;
