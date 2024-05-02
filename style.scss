@@ -14,12 +14,13 @@ body{
 }
 
 .navigation.scrolled{
-    background-color: #836FFF;
+    background-color: #f1f1f1;
     opacity: 0.98;
+    color: black;
 }
 
-.navigation.scrolled .nav-bar a{
-    color: white;
+.navigation.scrolled .nav-bar a {
+    color: black;
     font-size: 18px;
    
 }
@@ -52,7 +53,7 @@ body{
         margin-right: 30px;
         text-decoration: none;
         font-weight: bold;
-        font-family:Montserrat-Regular;
+        font-family:"Montserrat-Regular";
         transition: color 0.4s ease-in-out;
 
     }
@@ -175,7 +176,7 @@ body{
 
     
     h1{
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular" ;
         color: white;
         font-size: 60px;
         font-weight: bolder;
@@ -186,7 +187,7 @@ body{
         
     }
     p{
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular" ;
         color: white;
        
         display: flex;
@@ -238,7 +239,7 @@ body{
     h2{
         padding-bottom: 5px;
         font-weight: bolder;
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular ";
     }
     img{
         width: 100%;
@@ -281,7 +282,7 @@ body{
     h2{
         padding-bottom: 20px;
         text-align: center;
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular ";
     }
 .self{
    display: flex;
@@ -315,7 +316,7 @@ body{
    
 
      a{
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular" ;
          background-color:rgb(27,188,155);
          color: white;
          text-decoration: none;
@@ -353,7 +354,7 @@ body{
 
         a{
 
-            font-family:Montserrat-Regular ;
+            font-family:"Montserrat-Regular" ;
             text-decoration: none;
             padding: 10px ;
             font-size: 15px;
@@ -462,7 +463,7 @@ i{
   
 
     p{
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular" ;
         font-size: 16px;
 
         span{
@@ -473,7 +474,7 @@ i{
     }
 
     h3{
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular" ;
         font-weight: bolder;
         padding-bottom: 10px;
         font-size: 22px;
@@ -688,7 +689,7 @@ i{
 
         a{
 
-            font-family:Montserrat-Regular ;
+            font-family:"Montserrat-Regular" ;
             text-decoration: none;
             padding: 10px ;
             font-size: 15px;
@@ -1141,7 +1142,7 @@ i{
     h2{
         padding-bottom: 5px;
         font-weight: bolder;
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular" ;
     }
     img{
         height: 14vh;
@@ -1301,7 +1302,7 @@ i{
     h2{
         padding-bottom: 5px;
         font-weight: bolder;
-        font-family:Montserrat-Regular ;
+        font-family:"Montserrat-Regular ";
     }
 
     img{
