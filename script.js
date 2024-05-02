@@ -7,3 +7,12 @@ function openNav() {
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
+  document.addEventListener('scroll',()=>{
+    const navigation = document.querySelector('.navigation')
+    if  (window.scrollY > 0) {
+      navigation.classList.add('scrolled');
+    }else{
+      navigation.classList.remove('scrolled');
+    }
+  });
