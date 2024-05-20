@@ -225,6 +225,12 @@ body{
         
     }
 
+   
+
+
+    
+
+
     .line1{
         width:100px;
         border: 2px solid black;
@@ -246,6 +252,7 @@ body{
         height: 39vh;
         margin-top: 25px;
         border-radius: 3px;
+        object-fit: cover;
     }
 }
 
@@ -469,6 +476,7 @@ i{
         span{
             color:rgb(27,188,155);
             font-size: 15px;
+            // display: flex;
            
         }
     }
@@ -597,10 +605,12 @@ i{
             font-size: 17px;
         }
         img{
-            width: 100%;
-            height: 23vh;
-            margin-top: 20px;
+            object-fit: contain;
+            width: 101%;
+            height: 24vh;
+            margin-top: 0px;
             border-radius: 3px;
+        
         }
 
         
@@ -677,10 +687,8 @@ i{
     
 }
 
-
-
 .dev{
-    padding: 0 50px 50px 50px;
+    padding: 0 20px 50px 20px;
 
     .button {
         margin-left: 8%;
@@ -705,7 +713,7 @@ i{
     display: flex;
     flex-direction: column;
     width: 230px;
-    margin:auto;
+    
      
 
  
@@ -796,6 +804,42 @@ i{
        
         
     }
+
+    
+.dev .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 99%;
+    /* margin: auto; */
+}
+
+.dev .form .form-control {
+    padding: 7px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px 1px 2px black;
+    color: #2d3e50;
+}
+
+
+.dev .button {
+    margin-left: 1%;
+}
+
+.fas {
+    font-weight: 900;
+    font-size: 21px;
+    
+}
+
+
 }
 /* Extra small devices (phones, 600px and down) */
 // @media only screen and (max-width: 578px) {
@@ -1375,7 +1419,7 @@ i{
     display: none; 
   }
 
-  span{
+  .navigation  span{
     display: none; 
   }
 }
@@ -1386,7 +1430,7 @@ i{
         display: none; 
       }
     
-      span{
+    .navigation  span{
         display: none; 
       }
     }
@@ -1397,7 +1441,7 @@ i{
         display: none; 
       }
     
-      span{
+      .navigation   span{
         display: none; 
       }
     }
