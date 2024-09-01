@@ -176,6 +176,9 @@ body {
 .about .p--first, .about .p--second {
   width: 50%;
 }
+.about .now {
+  font-size: 20px;
+}
 .about i {
   padding: 10px;
 }
