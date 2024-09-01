@@ -1160,7 +1160,7 @@ h2{
    
 }
 
-@media  (min-width: 1366px) {
+@media only screen and  (min-width: 1366px) {
     .banner {
         padding: 52px;
     
