@@ -395,7 +395,9 @@ h2{
 
     }
 
-
+    .content i {
+        font-size: 28px;
+    }
 // end
 
 // foooter
@@ -1156,4 +1158,11 @@ h2{
 
    
    
+}
+
+@media  (min-width: 1366px) {
+    .banner {
+        padding: 1335vh;
+    
+    }
 }

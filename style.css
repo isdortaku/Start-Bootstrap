@@ -85,7 +85,7 @@ body {
 }
 
 .banner {
-  padding: 52px;
+  padding: 40px;
   background-color: rgb(27, 188, 155);
 }
 .banner .banner-text {
@@ -277,6 +277,10 @@ body {
   border: 3px solid gray;
   border-radius: 10px;
   color: gray;
+}
+
+.content i {
+  font-size: 28px;
 }
 
 .final {
@@ -625,5 +629,10 @@ body {
   }
   .dev {
     padding: 20px 0;
+  }
+}
+@media (min-width: 1366px) {
+  .banner {
+    padding: 1335vh;
   }
 }/*# sourceMappingURL=style.css.map */
