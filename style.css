@@ -192,6 +192,9 @@ body {
 .about .nice p {
   padding: 30px;
 }
+.about .naw {
+  font-size: 30px;
+}
 .about .bq {
   display: flex;
   justify-content: center;
